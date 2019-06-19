@@ -80,7 +80,7 @@ function resetHighlight(e) {
  * @param Évènement
  */
 function zoomToFeature(e) {
-    macarte.fitBounds(e.target.getBounds());
+    map.fitBounds(e.target.getBounds());
 }
 
 /**
@@ -116,9 +116,9 @@ function initMap() {
             position: 'topleft'
         }
     }).setView([latitude, longitude], 6);
+
     // Leaflet ne récupère pas les cartes (tiles) sur un serveur par défaut. Nous devons lui préciser où nous souhaitons les récupérer. Ici, openstreetmap.fr
     var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
-        // Il est toujours bien de laisser le lien vers la source des données
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
         minZoom: 1,
         maxZoom: 20

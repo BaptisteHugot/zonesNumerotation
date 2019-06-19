@@ -33,7 +33,7 @@
 
 #map {
 	/* Carte */
-	height: 700px;
+	height: 97vh;
 	/* Il est nécessaire que la carte ait une hauteur sinon elle n'apparaîtra pas */
-	width: 900px;
+	width: 56vw;
 }
