@@ -28,7 +28,7 @@ Un exemple complet est disponible sur [ma page personnelle GitHub](https://bapti
 * **Baptiste Hugot** - *Travail initial* - [BaptisteHugot](https://github.com/BaptisteHugot)
 
 ## Licence
-Ce projet est disponible sous licence MIT. Veuillez lire le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
+Ce projet est disponible sous licence logiciel MIT. Veuillez lire le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## Règles de conduite
 Pour connaître l'ensemble des règles de conduite à respecter sur ce dépôt, veuillez lire le fichier [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
