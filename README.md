@@ -7,7 +7,9 @@ Ce programme affiche une carte montrant les différentes zones de numérotation 
 Les données sont basées sur les fichiers disponibles sur le site de l'[Arcep](https://extranet.arcep.fr/portail/Op%C3%A9rateursCE/Num%C3%A9rotation.aspx), le régulateur des communications électroniques en France.
 
 ## Exemple
-Un exemple complet est disponible sur [ma page personnelle GitHub](https://baptistehugot.github.io/zonesNumerotation/).
+Un exemple complet est disponible sur [ma page personnelle GitHub](https://baptistehugot.github.io/zonesNumerotation/), et un exemple de rendu de ces cartes au format .png est disponible ci-dessous.
+
+<img src="https://user-images.githubusercontent.com/19981614/69440050-631ef100-0d48-11ea-9007-d773ea9c6960.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/19981614/69440051-631ef100-0d48-11ea-8750-60e16768342b.png" width="30%"></img> <img src="https://user-images.githubusercontent.com/19981614/69440048-62865a80-0d48-11ea-928e-50ae165b94e7.png" width="30%"></img> 
 
 ## Ecrit avec
 * [Javascript](https://www.ecma-international.org/publications/standards/Ecma-262.htm) - Le langage de programmation utilisé pour gérer la gestion de la carte et des bibliothèques
@@ -20,9 +22,11 @@ Un exemple complet est disponible sur [ma page personnelle GitHub](https://bapti
 * [Leaflet-Geosearch](https://github.com/smeijer/leaflet-geosearch) - La bibliothèque utilisée pour permettre la recherche par commune
 * [Leaflet-Locatecontrol](https://github.com/domoritz/leaflet-locatecontrol) - La bibliothèque utilisée pour permettre la géolocalisation de l'utilisateur
 * [Leaflet.fullscreen](https://github.com/Leaflet/Leaflet.fullscreen) - La bibliothèque utilisée pour afficher la carte en plein écran
+* [Leaflet-Hash](https://github.com/mlevans/leaflet-hash) - La bibliothèque utilisée pour avoir une URL dynamique au lieu d'une URL statique par défaut
+* [Leaflet-easyPrint](https://github.com/rowanwins/leaflet-easyPrint/) - La bibliothèque utilisée pour exporter la carte au format .png et pour l'imprimer
 
 ## Versions
-[SemVer](http://semver.org/) est utilisé pour la gestion de versions. Pour connaître les versions disponibles, veuillez vous référer aux [étiquettes disponibles dans ce dépôt](https://github.com/BaptisteHugot/arretRTC/releases/).
+[SemVer](http://semver.org/) est utilisé pour la gestion de versions. Pour connaître les versions disponibles, veuillez vous référer aux [étiquettes disponibles dans ce dépôt](https://github.com/BaptisteHugot/zonesNumerotation/releases/).
 
 ## Auteurs
 * **Baptiste Hugot** - *Travail initial* - [BaptisteHugot](https://github.com/BaptisteHugot)
