@@ -1,3 +1,5 @@
+> :warning: **Suite à la disparition des zones de numérotation élémentaires en France (décision de l'Arcep n°2019-0954), ces données ne sont plus valides. Ce projet est désormais archivé et laissé accessible uniquement pour la partie historique :wink:**
+
 # zonesNumerotation
 Ce programme affiche une carte montrant les différentes zones de numérotation en France, suivant trois niveaux distincts :
 * Au niveau de la zone géographique (Z)
